@@ -1,0 +1,30 @@
+README
+======
+
+    This script will train SVM classifier with train dataset and predict the following category for each statement in test file.
+        - what
+        - when
+        - who
+        - affirmation
+        - unknown
+
+    The predicted labels will stored in a file predicted_labels.csv
+
+Requirments:
+=============
+
+    Python==2.7
+    numpy==1.13.0
+    scipy==0.19.0
+    scikit-learn==0.18.2
+
+
+How to run:
+===========
+
+    python nlp_niki.py
+
+Note:
+=====
+    
+    - Files are pre-defined in the script. But we can change the filename in the script.
